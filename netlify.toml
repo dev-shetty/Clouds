@@ -1,0 +1,7 @@
+[build]
+    base = "frontend"
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
