@@ -1,0 +1,7 @@
+#background-video {
+    position: fixed;   
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}

@@ -1,0 +1,47 @@
+/* Landing Page */
+#landing {
+    min-height: 100vh;
+}
+.landing-image {
+    padding-block: 2rem;
+}
+.landing-image > img{
+    width: min(25rem, 90%);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    display: block;
+    margin: auto;
+}
+.landing-content > h1 {
+    font-size: 3rem;
+}
+.landing-content > h2 {
+    font-size: 2rem;
+}
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.landing-content > p {
+    margin-top: 1rem;
+    width: min(35rem, 90%);
+}
+
+/* Members Section */
+
+#members {
+    min-height: 100vh;
+}
+
+/* Other Events Section */
+#other-events {
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 50em) {
+    .landing-image {
+        padding-top: 1rem;
+    }
+}

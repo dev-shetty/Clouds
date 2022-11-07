@@ -1,0 +1,18 @@
+.main-nav > ul {
+    display: flex;
+    list-style: none;
+}
+.main-nav > ul > li {
+    padding: 1rem 2rem;
+}
+.main-nav > ul > li > * {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+
+@media only screen and (max-width: 50em) {
+    .main-nav > ul {
+        justify-content: center;
+        padding-top: 0.25rem;
+    }
+}
