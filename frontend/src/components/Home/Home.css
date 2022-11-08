@@ -40,8 +40,40 @@
     min-height: 100vh;
 }
 
+.event-list {
+    min-height: 80vh;
+    --columns: 2;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.event-list > .other-events > img {
+    width: min(30rem, 45%);
+    display: block;
+    aspect-ratio: 1;
+    margin: auto;
+}
+.event-list > .other-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+}
+.event-list > .other-events > h2 {
+    margin-block: 1.5rem;
+}
+.event-list > .other-events > p {
+    width: min(28rem, 90%);
+}
+
 @media only screen and (max-width: 50em) {
     .landing-image {
         padding-top: 1rem;
     }
+    .event-list {
+        --columns: 1;
+    }
+
 }

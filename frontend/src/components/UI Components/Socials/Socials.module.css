@@ -2,6 +2,7 @@
     position: fixed;
     bottom: 2rem;
     right: 2rem;
+    z-index: 5;
 }
 .socials-nav > ul {
     list-style: none;
