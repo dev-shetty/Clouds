@@ -7,7 +7,6 @@
 }
 .landing-image > img{
     width: min(25rem, 60%);
-    border-radius: 50%;
     aspect-ratio: 1;
     display: block;
     margin: auto;
@@ -38,7 +37,6 @@
 /* Other Events Section */
 #other-events {
     min-height: 100vh;
-    margin-bottom: 5rem;
 }
 
 .event-list {
@@ -70,6 +68,9 @@
 }
 
 @media only screen and (max-width: 50em) {
+    #other-events {
+        margin-bottom: 5rem;
+    }
     .landing-image {
         padding-top: 1rem;
     }

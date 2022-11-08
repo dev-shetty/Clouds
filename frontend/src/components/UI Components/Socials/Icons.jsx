@@ -15,7 +15,7 @@ function Icons({ size }) {
    */
   return (
     <>
-      <li>
+      <li className="instagram">
         <FaInstagram size={size} />
       </li>
       <li>
@@ -25,10 +25,10 @@ function Icons({ size }) {
         <FaTwitter size={size} />
       </li>
       <li>
-        <FaYoutube size={size} />
+        <FaYoutube size={size} className="youtube" />
       </li>
       <li>
-        <FaEnvelope size={size} />
+        <FaEnvelope size={size} className="email" />
       </li>
     </>
   )

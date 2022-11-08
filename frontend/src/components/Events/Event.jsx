@@ -3,7 +3,7 @@ function Event({ item }) {
   return (
     <div className="event">
       <div className="event-image-wrapper">
-        <img src={item.img} alt={item.name} />
+        <img src={item.img} alt={item.name} draggable />
       </div>
       <div className="event-wrapper">
         <h2>{item.title}</h2>

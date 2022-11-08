@@ -3,7 +3,7 @@ function Landing() {
   return (
     <div id="landing">
       <div className="landing-image">
-        <img src="https://source.unsplash.com/random?cloud" alt="" />
+        <img src="Clouds logo.png" alt="Clouds logo" />
       </div>
       <div className="landing-content">
         <h1>CLOUDS</h1>

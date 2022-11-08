@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  background-color: #131313;
+}
 body {
   font-size: 1.25rem;
 }

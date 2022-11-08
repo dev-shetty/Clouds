@@ -19,6 +19,7 @@
     color: var(--clr-primary);
 }
 
+
 @media only screen and (max-width: 50em) {
     .socials-nav {
         display: none;
