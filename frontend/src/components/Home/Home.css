@@ -6,7 +6,7 @@
     padding-block: 2rem;
 }
 .landing-image > img{
-    width: min(25rem, 90%);
+    width: min(25rem, 60%);
     border-radius: 50%;
     aspect-ratio: 1;
     display: block;
@@ -38,6 +38,7 @@
 /* Other Events Section */
 #other-events {
     min-height: 100vh;
+    margin-bottom: 5rem;
 }
 
 .event-list {
@@ -74,6 +75,9 @@
     }
     .event-list {
         --columns: 1;
+    }
+    .event-list > .other-events > p {
+        text-align: center;
     }
 
 }
