@@ -48,11 +48,12 @@
     justify-content: center;
     align-items: center;
 }
-.event-list > .other-events > img {
+.event-list > .other-events > div > img {
     width: min(30rem, 45%);
     display: block;
-    aspect-ratio: 1;
+    aspect-ratio: 3 / 2;
     margin: auto;
+    border-radius: 2rem;
 }
 .event-list > .other-events {
     display: flex;
@@ -65,6 +66,27 @@
 }
 .event-list > .other-events > p {
     width: min(28rem, 90%);
+}
+.arpan {
+    position: relative;
+}
+.arpan::after {
+    content: "Coming Soon...";
+    width: 50%;
+    color: #f8bc04;
+    font-size: min(2rem, 5vw);
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 2rem;
 }
 
 @media only screen and (max-width: 50em) {
@@ -79,6 +101,9 @@
     }
     .event-list > .other-events > p {
         text-align: center;
+    }
+    .arpan::after {
+        padding-inline: 3rem;
     }
 
 }
