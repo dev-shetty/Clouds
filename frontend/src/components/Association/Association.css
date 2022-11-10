@@ -7,6 +7,13 @@
     margin-inline: auto;
     padding-inline: 1rem;
     gap: 3rem;
+
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.clouds-association .section::-webkit-scrollbar {
+    display: none;
 }
 
 .divide-3 {
@@ -14,6 +21,9 @@
 }
 .divide-4 {
     grid-template-columns: repeat(4, 1fr);
+}
+.divide-4 > .profile > div {
+    padding-inline: 0.25rem;
 }
 .compress {
     padding-inline: 5rem !important;
@@ -27,7 +37,8 @@
     margin-bottom: 2rem;
     width: fit-content;
     margin-inline: auto;
-    outline: 1px solid lightskyblue;
+    padding-block: 0.5rem;
+    border: 1px solid lightskyblue;
 }
 .profile > div {
     display: flex;
@@ -51,9 +62,6 @@
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none;
-    }
-    .clouds-association .section::-webkit-scrollbar {
-        display: none;
     }
     .clouds-association .profile > img {
         width: 50%;
