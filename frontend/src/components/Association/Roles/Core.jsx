@@ -24,7 +24,7 @@ function Core() {
           </div>
         </div>
       </div>
-      <div className="section divide-4">
+      <div className="section divide-3 compress">
         <div className="profile">
           <img src="https://source.unsplash.com/random?computer" alt="" />
           <div>

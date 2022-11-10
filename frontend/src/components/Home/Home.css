@@ -89,6 +89,16 @@
     border-radius: 2rem;
 }
 
+.scroll-down {
+    display: none;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(1rem) translateX(-50%);
+    }
+}
+
 @media only screen and (max-width: 50em) {
     #other-events {
         margin-bottom: 5rem;
@@ -104,6 +114,20 @@
     }
     .arpan::after {
         padding-inline: 3rem;
+    }
+    
+}
+@media only screen and (max-width: 35rem) {
+    .scroll-down {
+        display: block;
+        position: absolute;
+        bottom: 3rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--clr-primary);
+        padding: 1rem;
+        border-radius: 50%;
+        animation: bounce infinite 2s ease-in-out;
     }
 
 }

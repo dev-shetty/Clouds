@@ -16,6 +16,9 @@
 .divide-4 {
     grid-template-columns: repeat(4, 1fr);
 }
+.compress {
+    padding-inline: 5rem !important;
+}
 
 .clouds-association .section > .profile {
     display: flex;
@@ -49,5 +52,8 @@
     }
     .clouds-association .section::-webkit-scrollbar {
         display: none;
+    }
+    .compress {
+        padding-inline: 1rem !important;
     }
 }

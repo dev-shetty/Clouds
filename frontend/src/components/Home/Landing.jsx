@@ -1,3 +1,4 @@
+import { FaArrowDown } from "react-icons/fa"
 import "./Home.css"
 function Landing() {
   return (
@@ -13,6 +14,9 @@ function Landing() {
           tenetur unde quisquam sunt est fugiat esse, vel ea cumque soluta quae
           libero, error quia ipsam officiis, culpa excepturi modi?
         </p>
+      </div>
+      <div className="scroll-down">
+        <FaArrowDown color="black" size="1.5rem" />
       </div>
     </div>
   )
