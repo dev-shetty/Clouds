@@ -1,6 +1,6 @@
 /* Landing Page */
 #landing {
-    min-height: 100vh;
+    padding-bottom: 2rem;
 }
 .landing-image {
     padding-block: 2rem;
@@ -28,15 +28,10 @@
     width: min(35rem, 90%);
 }
 
-/* Members Section */
-
-#members {
-    min-height: 100vh;
-}
-
 /* Other Events Section */
+
 #other-events {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .event-list {
@@ -95,11 +90,14 @@
 
 @keyframes bounce {
     50% {
-        transform: translateY(1rem) translateX(-50%);
+        transform: translateY(0.5rem) translateX(-50%);
     }
 }
 
 @media only screen and (max-width: 50em) {
+    #landing {
+        /* padding-bottom: 3rem; */
+    }
     #other-events {
         margin-bottom: 5rem;
     }
@@ -121,7 +119,7 @@
     .scroll-down {
         display: block;
         position: absolute;
-        bottom: 3rem;
+        bottom: 0;
         left: 50%;
         transform: translateX(-50%);
         background-color: var(--clr-primary);

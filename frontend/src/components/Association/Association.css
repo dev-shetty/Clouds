@@ -1,6 +1,5 @@
-
 #association {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .clouds-association .section {
@@ -26,9 +25,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-    padding-block: 1rem;
-    /* padding-inline: 3rem; */
-    /* border: 2px solid red; */
+    width: fit-content;
+    margin-inline: auto;
+    outline: 1px solid lightskyblue;
 }
 .profile > div {
     display: flex;
@@ -40,12 +39,15 @@
 }
 .clouds-association .profile > img {
     width: 16rem;
-    height: 20rem;
+    aspect-ratio: 1;
+    /* height: 20rem; */
     object-fit: cover;
 }
 
 @media only screen and (max-width: 50em) {
     .clouds-association .section {
+        /* overflow: hidden; */
+        gap: 1rem;
         overflow: scroll;
         -ms-overflow-style: none;
         scrollbar-width: none;
@@ -53,6 +55,16 @@
     .clouds-association .section::-webkit-scrollbar {
         display: none;
     }
+    .clouds-association .profile > img {
+        width: 50%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+    .profile > div {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
     .compress {
         padding-inline: 1rem !important;
     }

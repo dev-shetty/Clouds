@@ -7,17 +7,17 @@ function Landing() {
         <img src="Clouds logo.png" alt="Clouds logo" />
       </div>
       <div className="landing-content">
-        <h1>CLOUDS</h1>
-        <h2>Full form of CLOUDS</h2>
+        {/* <h1>CLOUDS</h1> */}
+        {/* <h2>Full form of CLOUDS</h2> */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus
           tenetur unde quisquam sunt est fugiat esse, vel ea cumque soluta quae
           libero, error quia ipsam officiis, culpa excepturi modi?
         </p>
       </div>
-      <div className="scroll-down">
+      {/* <div className="scroll-down">
         <FaArrowDown color="black" size="1.5rem" />
-      </div>
+      </div> */}
     </div>
   )
 }
