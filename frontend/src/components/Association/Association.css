@@ -15,7 +15,12 @@
 .clouds-association .section::-webkit-scrollbar {
     display: none;
 }
-
+.divide-2 {
+    grid-template-columns: repeat(4, 1fr);
+}
+.divide-2 > div:first-child {
+    grid-column: 2 / 3;
+}
 .divide-3 {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -25,6 +30,7 @@
 .divide-4 > .profile > div {
     padding-inline: 0.25rem;
 }
+
 .compress {
     padding-inline: 5rem !important;
 }
@@ -33,11 +39,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin-bottom: 2rem;
     width: fit-content;
     margin-inline: auto;
-    padding-block: 0.5rem;
+    padding-bottom: 0.5rem;
     border: 1px solid lightskyblue;
 }
 .profile > div {
@@ -55,7 +60,16 @@
     object-fit: cover;
 }
 
-@media only screen and (max-width: 50em) {
+.sub-title {
+    font-size: clamp(1.25rem, 5vw, 2rem);
+    margin-block: 1rem 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 60em) {
+    .clouds-association .section > .profile  {
+        border: none;
+    }
     .clouds-association .section {
         /* overflow: hidden; */
         gap: 1rem;

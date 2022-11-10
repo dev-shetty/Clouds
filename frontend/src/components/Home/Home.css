@@ -35,7 +35,8 @@
 }
 
 .event-list {
-    min-height: 80vh;
+    /* min-height: 80vh; */
+    margin-bottom: 8rem;
     --columns: 2;
     display: grid;
     gap: 2rem;
