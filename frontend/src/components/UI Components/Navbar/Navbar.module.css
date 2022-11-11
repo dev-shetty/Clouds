@@ -10,6 +10,20 @@
     text-decoration: none;
     color: var(--clr-primary);
 }
+.notification {
+    position: relative;
+}
+.notification::after {
+    content: "";
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 0.75rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 5;
+}
 
 @media only screen and (max-width: 50em) {
     .main-nav > ul {

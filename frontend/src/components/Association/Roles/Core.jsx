@@ -11,13 +11,13 @@ function Core() {
         />
         <Profile
           img="https://source.unsplash.com/random?mountain"
-          role="Vice President"
-          name="Nishanth K"
+          role="Staff Co-ordinator"
+          name="Shailesh Shetty S"
         />
         <Profile
           img="https://source.unsplash.com/random?mountain"
-          role="Staff Co-ordinator"
-          name="Shailesh Shetty S"
+          role="Vice President"
+          name="Nishanth K"
         />
       </div>
       <div className="section divide-3 compress">
