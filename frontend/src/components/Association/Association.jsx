@@ -1,13 +1,13 @@
 import Core from "./Roles/Core"
-import Coordinator from "./Roles/Coordinator"
+import Event from "./Roles/Event"
 import Cultural from "./Roles/Cultural"
 import Technical from "./Roles/Technical"
 import Developer from "./Roles/Developer"
 import Sports from "./Roles/Sports"
 import Journal from "./Roles/Journal"
 import Media from "./Roles/Media"
-import "./Association.css"
 import Others from "./Roles/Others"
+import "./Association.css"
 
 function Association() {
   return (
@@ -15,7 +15,7 @@ function Association() {
       <h1 className="title">Clouds Association</h1>
       <main className="clouds-association">
         <Core />
-        <Coordinator />
+        <Event />
         <Cultural />
         <Technical />
         <Developer />

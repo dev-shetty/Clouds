@@ -8,11 +8,11 @@ function Journal() {
         <div className="section divide-2">
           <Profile
             img="https://source.unsplash.com/random?book"
-            name="Adithya"
+            name="Sucheta S Shanbhag"
           />
           <Profile
             img="https://source.unsplash.com/random?book"
-            name="Adithya"
+            name="Vinol Chris D Souza"
           />
         </div>
       </div>
@@ -21,11 +21,11 @@ function Journal() {
         <div className="section divide-2">
           <Profile
             img="https://source.unsplash.com/random?book"
-            name="Adithya"
+            name="Amrutha"
           />
           <Profile
             img="https://source.unsplash.com/random?book"
-            name="Adithya"
+            name="Lakshmi Akshaya T"
           />
         </div>
       </div>

@@ -8,30 +8,30 @@ function Cultural() {
         <div className="section divide-4">
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Aashay"
+            name="Priyanka R Kunte"
           />
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Aashay"
+            name="K R Sinchana"
           />
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Aashay"
+            name="Shrest"
           />
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Aashay"
+            name="Deeksha P K"
           />
         </div>
         <p className="sub-title">Joint Cultural Secretary</p>
         <div className="section divide-2">
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Athul"
+            name="Anushree Rai N"
           />
           <Profile
             img="https://source.unsplash.com/random?india"
-            name="Athul"
+            name="Punya"
           />
         </div>
       </div>

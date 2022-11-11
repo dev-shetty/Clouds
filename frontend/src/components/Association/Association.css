@@ -44,6 +44,7 @@
     margin-inline: auto;
     padding-bottom: 0.5rem;
     border: 1px solid lightskyblue;
+    background-color: #131313;
 }
 .profile > div {
     display: flex;

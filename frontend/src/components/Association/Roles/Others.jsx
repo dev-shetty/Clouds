@@ -9,12 +9,12 @@ function Others() {
         <div className="section divide-2">
           <Profile
             img="https://source.unsplash.com/random?market"
-            name="Abhishek 2.0"
+            name="Sanjana S Nayak"
             role="Placement Co-ordinator"
           />
           <Profile
             img="https://source.unsplash.com/random?market"
-            name="Abhishek 2.0"
+            name="Roshni"
             role="Documentation / Marketing"
           />
         </div>

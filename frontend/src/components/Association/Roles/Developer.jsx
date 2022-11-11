@@ -8,15 +8,15 @@ function Developer() {
         <div className="section divide-3">
           <Profile
             img="https://source.unsplash.com/random?coding"
-            name="Sohan"
+            name="Deveesh C Shetty"
           />
           <Profile
             img="https://source.unsplash.com/random?coding"
-            name="Sohan"
+            name="Tejas G K"
           />
           <Profile
             img="https://source.unsplash.com/random?coding"
-            name="Sohan"
+            name="Rohan"
           />
         </div>
       </div>

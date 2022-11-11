@@ -8,19 +8,19 @@ function Media() {
         <div className="section divide-4">
           <Profile
             img="https://source.unsplash.com/random?Camera"
-            name="Anurag"
+            name="Athul Ariga"
           />
           <Profile
             img="https://source.unsplash.com/random?Camera"
-            name="Anurag"
+            name="Nishitha S Shetty"
           />
           <Profile
             img="https://source.unsplash.com/random?Camera"
-            name="Anurag"
+            name="Adithya Nayak K"
           />
           <Profile
             img="https://source.unsplash.com/random?Camera"
-            name="Anurag"
+            name="Sathwick Shetty"
           />
         </div>
       </div>

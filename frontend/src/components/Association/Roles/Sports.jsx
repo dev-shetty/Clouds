@@ -8,11 +8,11 @@ function Sports() {
         <div className="section divide-2">
           <Profile
             img="https://source.unsplash.com/random?sports"
-            name="Rohan"
+            name="Aman"
           />
           <Profile
             img="https://source.unsplash.com/random?sports"
-            name="Rohan"
+            name="Zahir"
             role="Joint Sports Secretary"
           />
         </div>

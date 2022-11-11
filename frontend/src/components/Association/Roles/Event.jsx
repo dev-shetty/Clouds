@@ -1,6 +1,6 @@
 import Profile from "../Profile"
 
-function Coordinator() {
+function Event() {
   return (
     <div>
       <div>
@@ -8,38 +8,38 @@ function Coordinator() {
         <div className="section divide-4">
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Abhishek Pai P"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Ashwin K P"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Sohan Bangera"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Dharithri B Rai"
           />
         </div>
         <p className="sub-title">Joint Event Co-ordinators</p>
         <div className="section divide-4">
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Shreya K"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Sudeep N Naik"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Divesh"
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Tejas GK"
+            name="Amulya"
           />
         </div>
       </div>
@@ -47,4 +47,4 @@ function Coordinator() {
   )
 }
 
-export default Coordinator
+export default Event
