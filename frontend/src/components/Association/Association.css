@@ -43,33 +43,19 @@
     margin-bottom: 2rem;
     margin-inline: auto;
     padding-bottom: 0.5rem;
-    background-color: #131313;
     /* text-transform: uppercase; */
     isolation: isolate;
 
-    --g: 4px;     /* the gap */
-    --b: 12px;    /* border thickness*/
-    --c: lightblue; /* the color */
+    --gap: 4px;     /* the gap */
+    --border-width: 12px;    /* border thickness*/
+    --color: lightblue; /* the color */
+
     
-    
-    padding: calc(var(--g) + var(--b));
-    --_c: #0000 0 25%, var(--c) 0 50%;
-    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
-    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
-    background:
-      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
-      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
-    background-color: #131313;
-    background-size: 200% var(--b),var(--b) 200%;
     cursor: pointer;
-    filter: grayscale(50%);
-    transition: .3s;
+    background-color: #131313;
+    /* filter: grayscale(50%); */
 }
 
-.profile:hover {
-    --_p: 75%;
-    filter: grayscale(100%);
-  }
 
 .profile > div {
     display: flex;
@@ -85,7 +71,6 @@
     /* height: 20rem; */
     object-fit: cover;
     cursor: pointer;
-    z-index: -1;
 }
 
 .sub-title {
@@ -101,10 +86,34 @@
     scale: 1.1;
 } */
 
+@media only screen and (min-width: 60em) {
+    .clouds-association .section > .profile {
+        padding: calc(var(--gap) + var(--border-width));
+        --_color-new: #131313 0 25%, var(--color) 0 50%;
+        --_gradient1: repeating-linear-gradient(90deg ,var(--_color-new)) repeat-x;
+        --_gradient2: repeating-linear-gradient(180deg,var(--_color-new)) repeat-y;
+        background:
+        var(--_gradient1) var(--_partial, 25%) 0   ,var(--_gradient2) 0    var(--_partial,125%),
+        var(--_gradient1) var(--_partial,125%) 100%,var(--_gradient2) 100% var(--_partial, 25%);
+        background-size: 200% var(--border-width),var(--border-width) 200%;
+        background-color: #131313;
+        transition: .3s;
+    }
+    .profile:hover {
+        --_partial: 75%;
+        /* filter: grayscale(100%); */
+        /* 👆 If b&w on hover */
+      }
+}
+
 @media only screen and (max-width: 60em) {
     .clouds-association .section > .profile  {
         border: none;
         width: 5rem;
+        transition: border-radius 300ms ease-in-out;
+    }
+    .profile:hover {
+        border-radius: 1em;
     }
     .clouds-association .section {
         /* overflow: hidden; */
