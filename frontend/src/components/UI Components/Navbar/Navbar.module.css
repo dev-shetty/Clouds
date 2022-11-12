@@ -2,9 +2,24 @@
     width: 100%;
     display: flex;
     list-style: none;
+    padding-inline: 1rem;
+    gap: 1rem;
 }
 .main-nav > ul > li {
+    position: relative;
     padding: 1rem 2rem;
+    overflow: hidden;
+}
+.main-nav > ul > li::after {
+    content: "";
+    position: absolute;
+    inset: 95% 0 0 0;
+    background-color: var(--clr-primary);
+    transform: translateX(-100%);
+    transition: transform 350ms ease-in-out;
+}
+.main-nav > ul > li:hover::after {
+    transform: translateX(0);
 }
 .main-nav > ul > li > * {
     text-decoration: none;

@@ -20,7 +20,7 @@ function Event() {
           />
           <Profile
             img="https://source.unsplash.com/random?river"
-            name="Dharithri B Rai"
+            name="Dharithri Rai B"
           />
         </div>
         <p className="sub-title">Joint Event Co-ordinators</p>

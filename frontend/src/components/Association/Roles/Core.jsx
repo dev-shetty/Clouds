@@ -34,7 +34,7 @@ function Core() {
         <Profile
           img="https://source.unsplash.com/random?mountain"
           role="Joint Treasurer"
-          name="Bhupendra"
+          name="Bhupender"
         />
       </div>
     </div>

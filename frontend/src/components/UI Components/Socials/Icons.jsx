@@ -6,6 +6,8 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa"
+import styles from "./Socials.module.css"
+
 function Icons({ size }) {
   // if color needed then
   /**
@@ -16,7 +18,7 @@ function Icons({ size }) {
    */
   return (
     <>
-      <li className="instagram">
+      <li className={styles["icon"]}>
         <FaInstagram size={size} />
       </li>
       {/* <li>
@@ -29,10 +31,10 @@ function Icons({ size }) {
         <FaYoutube size={size} className="youtube" />
       </li> */}
       <li>
-        <FaLinkedin size={size} className="linkedin" />
+        <FaLinkedin size={size} className={styles["icon"]} />
       </li>
       <li>
-        <FaEnvelope size={size} className="email" />
+        <FaEnvelope size={size} className={styles["icon"]} />
       </li>
     </>
   )

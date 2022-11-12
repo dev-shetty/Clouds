@@ -10,6 +10,7 @@
     aspect-ratio: 1;
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 .landing-content > h1 {
     font-size: 3rem;
