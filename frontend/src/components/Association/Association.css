@@ -110,11 +110,11 @@
     .clouds-association .section > .profile  {
         border: none;
         width: 5rem;
-        transition: border-radius 300ms ease-in-out;
+        /* transition: border-radius 300ms ease-in-out; */
     }
-    .profile:hover {
+    /* .profile:hover {
         border-radius: 1em;
-    }
+    } */
     .clouds-association .section {
         /* overflow: hidden; */
         gap: 1rem;
