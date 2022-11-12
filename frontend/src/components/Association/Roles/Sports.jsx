@@ -11,7 +11,7 @@ function Sports() {
             name="Aman"
           />
           <Profile
-            img="https://source.unsplash.com/random?sports"
+            img="Profile/Zahir.jpg"
             name="Zahir"
             role="Joint Sports Secretary"
           />

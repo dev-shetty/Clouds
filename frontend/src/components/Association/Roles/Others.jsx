@@ -8,12 +8,12 @@ function Others() {
         <p className="sub-title">Placement and Marketing</p>
         <div className="section divide-2">
           <Profile
-            img="https://source.unsplash.com/random?market"
+            img="Profile/Sanjana.jpg"
             name="Sanjana S Nayak"
             role="Placement Co-ordinator"
           />
           <Profile
-            img="https://source.unsplash.com/random?market"
+            img="Profile/Roshni.jpg"
             name="Roshni"
             role="Documentation / Marketing"
           />

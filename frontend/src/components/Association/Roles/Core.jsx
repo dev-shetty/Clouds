@@ -5,24 +5,24 @@ function Core() {
     <div>
       <div className="section divide-3">
         <Profile
-          img="https://source.unsplash.com/random?mountain"
+          img="Profile/NageshHR.jpg"
           role="President"
           name="Dr. Nagesh H R"
         />
         <Profile
-          img="https://source.unsplash.com/random?mountain"
+          img="Profile/ShaileshShetty.JPG"
           role="Staff Co-ordinator"
           name="Shailesh Shetty S"
         />
         <Profile
-          img="https://source.unsplash.com/random?mountain"
+          img="Profile/NishanthK.jpg"
           role="Vice President"
           name="Nishanth K"
         />
       </div>
       <div className="section divide-3 compress">
         <Profile
-          img="https://source.unsplash.com/random?mountain"
+          img="Profile/Manoj.jpg"
           role="Secretary"
           name="Manoj Mahesh Naik"
         />
@@ -32,7 +32,7 @@ function Core() {
           name="Anurag N"
         />
         <Profile
-          img="https://source.unsplash.com/random?mountain"
+          img="Profile/Bhupender.jpg"
           role="Joint Treasurer"
           name="Bhupender"
         />

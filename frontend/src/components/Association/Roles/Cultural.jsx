@@ -18,10 +18,7 @@ function Cultural() {
             img="https://source.unsplash.com/random?india"
             name="Shrest"
           />
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="Deeksha P K"
-          />
+          <Profile img="Profile/DeekshaPK.jpeg" name="Deeksha P K" />
         </div>
         <p className="sub-title">Joint Cultural Secretary</p>
         <div className="section divide-2">

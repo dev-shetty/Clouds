@@ -12,7 +12,7 @@ function Loading({ onClick, activate, timer }) {
     <div id="loader">
       {activate ? (
         <div className="loader-content">
-          <h1>Clouds Initializing</h1>
+          <h1>Clouds Initializing...</h1>
           <p>{count}</p>
         </div>
       ) : (

@@ -10,10 +10,7 @@ function Developer() {
             img="https://source.unsplash.com/random?coding"
             name="Deveesh C Shetty"
           />
-          <Profile
-            img="https://source.unsplash.com/random?coding"
-            name="Tejas G K"
-          />
+          <Profile img="Profile/Tejas.jpg" name="Tejas G K" />
           <Profile
             img="https://source.unsplash.com/random?coding"
             name="Rohan"

@@ -10,14 +10,8 @@ function Media() {
             img="https://source.unsplash.com/random?Camera"
             name="Athul Ariga"
           />
-          <Profile
-            img="https://source.unsplash.com/random?Camera"
-            name="Nishitha S Shetty"
-          />
-          <Profile
-            img="https://source.unsplash.com/random?Camera"
-            name="Adithya Nayak K"
-          />
+          <Profile img="Profile/NikshithaShetty.jpg" name="Nishitha S Shetty" />
+          <Profile img="Profile/Adithya.JPG" name="Adithya Nayak K" />
           <Profile
             img="https://source.unsplash.com/random?Camera"
             name="Sathwick Shetty"
