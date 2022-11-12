@@ -2,6 +2,7 @@ import {
   FaEnvelope,
   FaFacebook,
   FaInstagram,
+  FaLinkedin,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa"
@@ -20,13 +21,16 @@ function Icons({ size }) {
       </li>
       {/* <li>
         <FaFacebook size={size} />
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <FaTwitter size={size} />
-      </li>
-      <li>
+      </li> */}
+      {/* <li>
         <FaYoutube size={size} className="youtube" />
       </li> */}
+      <li>
+        <FaLinkedin size={size} className="linkedin" />
+      </li>
       <li>
         <FaEnvelope size={size} className="email" />
       </li>
