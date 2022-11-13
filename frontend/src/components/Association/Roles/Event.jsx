@@ -6,10 +6,7 @@ function Event() {
       <div>
         <p className="sub-title">Event Co-ordinators</p>
         <div className="section divide-4">
-          <Profile
-            img="https://source.unsplash.com/random?river"
-            name="Abhishek Pai P"
-          />
+          <Profile img="NoProfile.png" name="Abhishek Pai P" />
           <Profile img="Profile/Ashwin.jpg" name="Ashwin K P" />
           <Profile img="Profile/Sohan.JPG" name="Sohan Bangera" />
           <Profile img="Profile/Dharithri.png" name="Dharithri Rai B" />

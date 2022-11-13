@@ -6,16 +6,10 @@ function Media() {
       <div>
         <p className="sub-title">Graphics / Media</p>
         <div className="section divide-4">
-          <Profile
-            img="https://source.unsplash.com/random?Camera"
-            name="Athul Ariga"
-          />
+          <Profile img="NoProfile.png" name="Athul Ariga" />
           <Profile img="Profile/NikshithaShetty.jpg" name="Nishitha S Shetty" />
           <Profile img="Profile/Adithya.JPG" name="Adithya Nayak K" />
-          <Profile
-            img="https://source.unsplash.com/random?Camera"
-            name="Sathwick Shetty"
-          />
+          <Profile img="NoProfile.png" name="Sathwick Shetty" />
         </div>
       </div>
     </div>

@@ -26,11 +26,7 @@ function Core() {
           role="Secretary"
           name="Manoj Mahesh Naik"
         />
-        <Profile
-          img="https://source.unsplash.com/random?mountain"
-          role="Treasurer"
-          name="Anurag N"
-        />
+        <Profile img="NoProfile.png" role="Treasurer" name="Anurag N" />
         <Profile
           img="Profile/Bhupender.jpg"
           role="Joint Treasurer"

@@ -6,30 +6,15 @@ function Cultural() {
       <div>
         <p className="sub-title">Cultural Secretary</p>
         <div className="section divide-4">
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="Priyanka R Kunte"
-          />
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="K R Sinchana"
-          />
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="Shrest"
-          />
+          <Profile img="NoProfile.png" name="Priyanka R Kunte" />
+          <Profile img="Profile/Sinchana.jpg" name="K R Sinchana" />
+          <Profile img="NoProfile.png" name="Shrest" />
           <Profile img="Profile/DeekshaPK.jpeg" name="Deeksha P K" />
         </div>
         <p className="sub-title">Joint Cultural Secretary</p>
         <div className="section divide-2">
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="Anushree Rai N"
-          />
-          <Profile
-            img="https://source.unsplash.com/random?india"
-            name="Punya"
-          />
+          <Profile img="NoProfile.png" name="Anushree Rai N" />
+          <Profile img="NoProfile.png" name="Punya" />
         </div>
       </div>
     </div>

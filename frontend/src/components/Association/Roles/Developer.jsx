@@ -6,15 +6,9 @@ function Developer() {
       <div>
         <p className="sub-title">Web Developers</p>
         <div className="section divide-3">
-          <Profile
-            img="https://source.unsplash.com/random?coding"
-            name="Deveesh C Shetty"
-          />
+          <Profile img="NoProfile.png" name="Deveesh C Shetty" />
           <Profile img="Profile/Tejas.jpg" name="Tejas G K" />
-          <Profile
-            img="https://source.unsplash.com/random?coding"
-            name="Rohan"
-          />
+          <Profile img="NoProfile.png" name="Rohan" />
         </div>
       </div>
     </div>
