@@ -8,7 +8,7 @@ function Developer() {
         <div className="section divide-3">
           <Profile img="Profile/Deveesh.jpeg" name="Deveesh C Shetty" />
           <Profile img="Profile/Tejas.jpg" name="Tejas G K" />
-          <Profile img="NoProfile.png" name="Rohan" />
+          <Profile img="Profile/Rohan.jpg" name="Rohan" />
         </div>
       </div>
     </div>

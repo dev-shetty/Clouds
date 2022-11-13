@@ -46,7 +46,7 @@
     align-items: center;
 }
 .event-list > .other-events > div > img {
-    width: min(30rem, 45%);
+    width: min(20rem, 45%);
     display: block;
     aspect-ratio: 3 / 2;
     margin: auto;

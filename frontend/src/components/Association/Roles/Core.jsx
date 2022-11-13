@@ -20,17 +20,22 @@ function Core() {
           name="Nishanth K"
         />
       </div>
-      <div className="section divide-3 compress">
-        <Profile
-          img="Profile/Manoj.jpg"
-          role="Secretary"
-          name="Manoj Mahesh Naik"
-        />
+      <div className="section divide-4">
         <Profile img="Profile/Anurag.jpeg" role="Treasurer" name="Anurag N" />
         <Profile
           img="Profile/Bhupender.jpg"
           role="Joint Treasurer"
           name="Bhupender"
+        />
+        <Profile
+          img="Profile/Hariprasad.jpg"
+          name="Hariprasad Marla"
+          role="Joint Treasurer"
+        />
+        <Profile
+          img="Profile/Manoj.jpg"
+          role="Secretary"
+          name="Manoj Mahesh Naik"
         />
       </div>
     </div>

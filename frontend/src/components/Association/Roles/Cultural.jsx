@@ -6,7 +6,7 @@ function Cultural() {
       <div>
         <p className="sub-title">Cultural Secretary</p>
         <div className="section divide-4">
-          <Profile img="NoProfile.png" name="Priyanka R Kunte" />
+          <Profile img="Profile/PriyankaRKunte.jpg" name="Priyanka R Kunte" />
           <Profile img="Profile/Sinchana.jpg" name="K R Sinchana" />
           <Profile img="NoProfile.png" name="Shrest" />
           <Profile img="Profile/DeekshaPK.jpeg" name="Deeksha P K" />
