@@ -13,7 +13,7 @@ function Technical() {
         <div className="section divide-4">
           <Profile img="Profile/PratheekshaS.png" name="Pratheeksha S" />
           <Profile img="Profile/AshwinPB.jpg" name="Ashwin P B" />
-          <Profile img="NoProfile.png" name="Hamshini Shetty" />
+          <Profile img="Profile/Hamshini.jpg  " name="Hamshini Shetty" />
           <Profile img="Profile/Moksha.jpg" name="Moksha" />
         </div>
       </div>

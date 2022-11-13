@@ -14,7 +14,7 @@ function Cultural() {
         <p className="sub-title">Joint Cultural Secretary</p>
         <div className="section divide-2">
           <Profile img="NoProfile.png" name="Anushree Rai N" />
-          <Profile img="NoProfile.png" name="Punya" />
+          <Profile img="Profile/Punya.jpg" name="Punya" />
         </div>
       </div>
     </div>

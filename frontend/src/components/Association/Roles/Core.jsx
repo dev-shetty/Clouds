@@ -26,7 +26,7 @@ function Core() {
           role="Secretary"
           name="Manoj Mahesh Naik"
         />
-        <Profile img="NoProfile.png" role="Treasurer" name="Anurag N" />
+        <Profile img="Profile/Anurag.jpeg" role="Treasurer" name="Anurag N" />
         <Profile
           img="Profile/Bhupender.jpg"
           role="Joint Treasurer"
