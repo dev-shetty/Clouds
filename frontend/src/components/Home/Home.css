@@ -49,20 +49,35 @@
     width: min(20rem, 45%);
     display: block;
     aspect-ratio: 3 / 2;
-    margin: auto;
     border-radius: 2rem;
 }
 .event-list > .other-events {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-inline: auto;
+    height: 100%;
+    justify-content: space-around;
 }
-.event-list > .other-events > h2 {
+.event-list > .other-events > div:has(img) {
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.event-list > .other-events > .other-event-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.event-list > .other-events > .other-event-content > h2 {
     margin-block: 1.5rem;
+    width: 90%;
+    text-align: center;
 }
-.event-list > .other-events > p {
-    width: min(28rem, 90%);
+.event-list > .other-events > .other-event-content > p {
+    width: min(35rem, 90%);
+}
+.CSPL {
+    aspect-ratio: 1 !important;
 }
 .arpan {
     position: relative;
@@ -109,7 +124,7 @@
     .event-list {
         --columns: 1;
     }
-    .event-list > .other-events > p {
+    .event-list > .other-events > .other-event-content > p {
         text-align: center;
     }
     .arpan::after {

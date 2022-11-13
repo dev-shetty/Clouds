@@ -5,26 +5,31 @@ function OtherEvents() {
       <div className="event-list">
         <div className="other-events">
           <div className="arpan">
-            <img src="Arpan.png" alt="Arpan" />
+            <img src="Arpan.png" alt="Arpan" className="APRAN" />
           </div>
-          <h2>Arpan</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea impedit
-            et beatae sint saepe fugit.
-          </p>
+          <div className="other-event-content">
+            <h2>Arpan</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+              impedit et beatae sint saepe fugit.
+            </p>
+          </div>
         </div>
         <div className="other-events">
           <div>
             <img
-              src="https://source.unsplash.com/random?mountain"
-              alt="Arpan"
+              src="CSPL Logo.png"
+              alt="Computer Science Premier League"
+              className="CSPL"
             />
           </div>
-          <h2>Lorem, ipsum.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea impedit
-            et beatae sint saepe fugit.
-          </p>
+          <div className="other-event-content">
+            <h2>Computer Science Premier League</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+              impedit et beatae sint saepe fugit.
+            </p>
+          </div>
         </div>
       </div>
     </div>

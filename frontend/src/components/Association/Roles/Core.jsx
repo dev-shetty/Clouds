@@ -8,6 +8,7 @@ function Core() {
           img="Profile/NageshHR.jpg"
           role="President"
           name="Dr. Nagesh H R"
+          extras="HOD of Computer Science"
         />
         <Profile
           img="Profile/ShaileshShetty.JPG"
