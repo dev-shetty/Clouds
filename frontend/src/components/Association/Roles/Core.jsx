@@ -20,6 +20,7 @@ function Core() {
           name="Nishanth K"
         />
       </div>
+      <br />
       <div className="section divide-4">
         <Profile img="Profile/Anurag.jpeg" role="Treasurer" name="Anurag N" />
         <Profile
