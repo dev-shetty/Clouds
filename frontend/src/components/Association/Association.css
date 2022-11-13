@@ -66,9 +66,9 @@
     margin-block: 1rem;
 }
 .clouds-association .profile > img {
-    width: 16rem;
+    width: 15rem;
     aspect-ratio: 1;
-    /* height: 20rem; */
+    object-position: top;
     object-fit: cover;
     cursor: pointer;
 }
@@ -133,7 +133,7 @@
     }
     .clouds-association .profile > img {
         width: 100%;
-        aspect-ratio: 1;
+        aspect-ratio: 5 / 7;
         object-fit: cover;
     }
     .profile > div {
