@@ -6,7 +6,7 @@ function Technical() {
       <div>
         <p className="sub-title">Technical Secretary</p>
         <div className="section divide-2">
-          <Profile img="NoProfile.png" name="Ashay H Sooda" />
+          <Profile img="Profile/Ashay.jpeg" name="Ashay H Sooda" />
           <Profile img="Profile/Prakyath.jpeg" name="Prakyath H N" />
         </div>
         <p className="sub-title">Joint Technical Secretary</p>

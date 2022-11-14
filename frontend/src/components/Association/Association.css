@@ -64,7 +64,7 @@
     gap: 0.5rem;
     margin-block: 1rem;
 }
-.clouds-association .profile > img {
+.clouds-association .profile img {
     width: 15rem;
     aspect-ratio: 1;
     object-position: top;
@@ -124,19 +124,18 @@
     .clouds-association .divide-4::after {
         content: "";
         position: absolute;
-        background-color: red;
         z-index: 555;
         right: 2rem;
         top: 0;
         bottom: 0;
     }
-    .clouds-association .profile > img {
+    .clouds-association .profile img {
         width: 100%;
         aspect-ratio: 5 / 7;
         object-fit: cover;
     }
     .profile > div {
-        font-size: 0.75rem;
+        font-size: 0.675rem;
         text-align: center;
     }
 
