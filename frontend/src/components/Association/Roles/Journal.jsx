@@ -14,7 +14,7 @@ function Journal() {
         <p className="sub-title">Joint Journal Secretary</p>
         <div className="section divide-2">
           <Profile img="Profile/Amritha.jpg" name="Amritha" />
-          <Profile img="NoProfile.png" name="Lakshmi Akshaya T" />
+          <Profile img="Profile/LakshmiAkshayaT.jpg" name="Lakshmi Akshaya T" />
         </div>
       </div>
     </div>

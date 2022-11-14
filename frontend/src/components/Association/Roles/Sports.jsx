@@ -6,7 +6,7 @@ function Sports() {
       <div>
         <p className="sub-title">Sports Secretary</p>
         <div className="section divide-2">
-          <Profile img="NoProfile.png" name="Aman" />
+          <Profile img="Profile/Aman.jpg" name="Aman" />
           <Profile
             img="Profile/Zahir.jpg"
             name="Zahir"
