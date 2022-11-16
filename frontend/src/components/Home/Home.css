@@ -112,6 +112,11 @@
     cursor: pointer;
 }
 
+.landing-image > img {
+    scale: 1;
+    animation: zoom-in 500ms ease-in-out;
+}
+
 .scroll-down {
     display: none;
 }
@@ -138,6 +143,12 @@
     }
     100% {
         translate: 0;
+    }
+}
+
+@keyframes zoom-in {
+    50% {
+        scale: 1.1;
     }
 }
 

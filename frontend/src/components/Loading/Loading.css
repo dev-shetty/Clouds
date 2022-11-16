@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    background-color: #131313;
+    /* background-color: #131313; */
     z-index: 10;
     inset: 0;
 }
@@ -16,7 +16,8 @@
     align-items: center;
 }
 .loader-content > p {
-    font-size: 5rem;
+    font-size: 15rem;
+    font-family: "Seven-Segment"
 }
 
 .activate-btn {
@@ -37,41 +38,60 @@
     display: inline-block;
     position: relative;
     overflow: hidden;
+}
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.15);
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
+  background-size: 15px 15px;
+  z-index: 10;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  width: 0%;
+  height: 100%;
+  background-color: #FFF;
+  position: absolute;
+  border-radius: 0 4px 4px 0;
+  top: 0;
+  left: 0;
+  animation: progress 5s ease-in 1;
+}
+
+#logo-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-logo {
+  width: 35rem;
+  aspect-ratio: 1;
+  animation: zoom-out 1s ease-in-out;
+}
+
+@keyframes zoom-out {
+  100% {
+    scale: 0;
   }
-  .loader::before {
-    content: '';  
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.15);
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
-    background-size: 15px 15px;
-    z-index: 10;
-  }
-  .loader::after {
-    content: '';  
-    box-sizing: border-box;
-    width: 0%;
-    height: 100%;
-    background-color: #FFF;
-    position: absolute;
-    border-radius: 0 4px 4px 0;
-    top: 0;
-    left: 0;
-    animation: progress 5s ease-in 1;
-  }
-  
-  @keyframes progress {
-    0% {
+}
+
+@keyframes progress {
+  0% {
       width: 0;
     }
     100% {
       width: 100%;
     }
   }
+
 
   @media only screen and (max-width: 50em) {
     .activate-btn {

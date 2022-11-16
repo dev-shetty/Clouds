@@ -30,6 +30,7 @@ function Core() {
           img="Profile/Bhupender.jpg"
           role="Joint Treasurer"
           name="Bhupender"
+          socials="https://www.linkedin.com/in/bhupenderbeniwal/"
         />
         <Profile
           img="Profile/Hariprasad.jpg"

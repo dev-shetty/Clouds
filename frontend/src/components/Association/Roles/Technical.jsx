@@ -18,7 +18,7 @@ function Technical() {
           <Profile img="Profile/PratheekshaS.png" name="Pratheeksha S" />
           <Profile img="Profile/AshwinPB.jpg" name="Ashwin P B" />
           <Profile img="Profile/Hamshini.jpg  " name="Hamshini Shetty" />
-          <Profile img="Profile/Moksha.jpg" name="Moksha" />
+          <Profile img="Profile/Moksha.jpg" name="Moksha K" />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 function OtherEvents() {
   return (
     <div id="other-events">
-      <h1 className="title">Other Events</h1>
+      <h1 className="title">Upcoming Events</h1>
       <div className="event-list">
         <div className="other-events">
           <div className="arpan">

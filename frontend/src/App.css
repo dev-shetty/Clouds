@@ -13,3 +13,8 @@ body {
     padding: 2rem;
     font-size: clamp(1.75rem, 5vw, 2.5rem);
 }
+
+@font-face {
+    font-family: "Seven-Segment";
+    src: url("../public/Fonts/Seven\ Segment.ttf");
+}

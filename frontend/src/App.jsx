@@ -10,15 +10,18 @@ import "./App.css"
 
 function App() {
   // Set loading to true if loading screen is needed else set it to false
-  const [loading, setLoading] = useState(false)
-  const LOADER_TIMER = 5000
+  const [loading, setLoading] = useState(true)
+  const [logoLoading, setLogoLoading] = useState(false)
+  const LOADER_TIMER = 6000
   const [activate, setActivate] = useState(false)
 
   const websiteStart = () => {
     setTimeout(() => {
       setLoading(false)
     }, LOADER_TIMER)
-
+    setTimeout(() => {
+      setLogoLoading(true)
+    }, 5000)
     setActivate(true)
   }
 
@@ -30,6 +33,7 @@ function App() {
             <Loading
               onClick={websiteStart}
               activate={activate}
+              logoLoading={logoLoading}
               timer={LOADER_TIMER}
             />
           ) : (
