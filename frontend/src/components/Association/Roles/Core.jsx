@@ -14,11 +14,13 @@ function Core() {
           img="Profile/ShaileshShetty.JPG"
           role="Staff Co-ordinator"
           name="Shailesh Shetty S"
+          socials="https://www.linkedin.com/in/shailesh-s-shetty-2b076b42/"
         />
         <Profile
           img="Profile/NishanthK.jpg"
           role="Vice President"
           name="Nishanth K"
+          socials="https://www.linkedin.com/in/nishanth-k-309552191/"
         />
       </div>
       <br />
