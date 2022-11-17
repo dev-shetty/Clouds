@@ -14,10 +14,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Seven-Segment"
 }
 .loader-content > p {
     font-size: 15rem;
-    font-family: "Seven-Segment"
 }
 
 .activate-btn {

@@ -10,9 +10,11 @@ function Landing() {
         {/* <h1>CLOUDS</h1> */}
         {/* <h2>Full form of CLOUDS</h2> */}
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloribus
-          tenetur unde quisquam sunt est fugiat esse, vel ea cumque soluta quae
-          libero, error quia ipsam officiis, culpa excepturi modi?
+          Clouds which stands for Computer Legends Of the Unified Department is
+          a student organization of Computer Science and Engineering students at
+          SCEM. It aims to enhance the academic and professional lives of its
+          members. We at CLOUDS endeavor to create a healthy competitive
+          environment by providing opportunities for all to benefit from it.
         </p>
       </div>
       {/* <div className="scroll-down">

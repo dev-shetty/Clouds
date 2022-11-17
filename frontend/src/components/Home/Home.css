@@ -5,7 +5,7 @@
 .landing-image {
     padding-block: 2rem;
 }
-.landing-image > img{
+.landing-image > img {
     width: min(25rem, 60%);
     aspect-ratio: 1;
     display: block;
@@ -26,7 +26,8 @@
 }
 .landing-content > p {
     margin-top: 1rem;
-    width: min(35rem, 90%);
+    font-size: 1.5rem;
+    width: min(45rem, 90%);
 }
 
 /* Other Events Section */
@@ -170,6 +171,9 @@
     }
     .arpan::after {
         padding-inline: 3rem;
+    }
+    .landing-content > p {
+        font-size: 1rem;
     }
     
 }

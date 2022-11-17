@@ -19,7 +19,9 @@ function Icons({ size }) {
   return (
     <>
       <li className={styles["icon"]}>
-        <FaInstagram size={size} />
+        <a href="" target="_blank">
+          <FaInstagram size={size} />
+        </a>
       </li>
       {/* <li>
         <FaFacebook size={size} />
@@ -31,10 +33,17 @@ function Icons({ size }) {
         <FaYoutube size={size} className="youtube" />
       </li> */}
       <li>
-        <FaLinkedin size={size} className={styles["icon"]} />
+        <a
+          href="https://www.linkedin.com/in/department-of-cse-scem-b7190b256"
+          target="_blank"
+        >
+          <FaLinkedin size={size} className={styles["icon"]} />
+        </a>
       </li>
       <li>
-        <FaEnvelope size={size} className={styles["icon"]} />
+        <a href="" target="_blank">
+          <FaEnvelope size={size} className={styles["icon"]} />
+        </a>
       </li>
     </>
   )
