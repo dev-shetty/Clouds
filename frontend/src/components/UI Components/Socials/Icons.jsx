@@ -19,7 +19,10 @@ function Icons({ size }) {
   return (
     <>
       <li className={styles["icon"]}>
-        <a href="" target="_blank">
+        <a
+          href="https://instagram.com/clouds_scem?igshid=ZmRlMzRkMDU="
+          target="_blank"
+        >
           <FaInstagram size={size} />
         </a>
       </li>
@@ -40,11 +43,9 @@ function Icons({ size }) {
           <FaLinkedin size={size} className={styles["icon"]} />
         </a>
       </li>
-      <li>
-        <a href="" target="_blank">
-          <FaEnvelope size={size} className={styles["icon"]} />
-        </a>
-      </li>
+      {/* <li>
+        <FaEnvelope size={size} className={styles["icon"]} />
+      </li> */}
     </>
   )
 }

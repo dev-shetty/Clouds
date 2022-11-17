@@ -11,7 +11,7 @@ const events = [
   },
   {
     id: 2,
-    img: "https://source.unsplash.com/random?computer",
+    img: "Variety.JPG",
     title: "Variety Show",
     description:
       "The variety show features musical performances, dance, skits, and comedy sketches. Different sections compete against each other for the prestigious trophy. The students actively participate in this event, bringing out their inner artist.",
