@@ -10,7 +10,7 @@ import "./App.css"
 
 function App() {
   // Set loading to true if loading screen is needed else set it to false
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const [logoLoading, setLogoLoading] = useState(false)
   const LOADER_TIMER = 6000
   const [activate, setActivate] = useState(false)
