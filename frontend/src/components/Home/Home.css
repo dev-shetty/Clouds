@@ -175,6 +175,12 @@
     .landing-content > p {
         font-size: 1rem;
     }
+    .other-events h2 {
+        font-size: 1.5rem;
+    }
+    .other-events p {
+        font-size: 1rem;
+    }
     
 }
 @media only screen and (max-width: 35rem) {
