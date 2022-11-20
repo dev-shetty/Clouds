@@ -11,7 +11,10 @@ function Media() {
             name="Athul Ariga"
             socials="https://www.linkedin.com/in/athul-ariga-b4277a191/"
           />
-          <Profile img="Profile/NikshithaShetty.jpg" name="Nishitha S Shetty" />
+          <Profile
+            img="Profile/NikshithaShetty.jpg"
+            name="Nikshitha S Shetty"
+          />
           <Profile
             img="Profile/Adithya.JPG"
             name="Adithya Nayak K"
