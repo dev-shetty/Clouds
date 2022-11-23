@@ -27,6 +27,13 @@
     display: flex;
     justify-content: space-between;
 }
+.event-wrapper > p > a {
+    color: #5DC1F2;
+}
+.extras {
+    text-decoration: underline;    
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 50em) {
     .event {
