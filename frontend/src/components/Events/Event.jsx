@@ -12,9 +12,14 @@ function Event({ item }) {
         <p>
           {item.description} <a href={item.link}>{item.linkDescription}</a>
         </p>
-        {/* <p className="extras" onClick={() => navigate("/sinchana")}>
+        <p
+          className="extras"
+          onClick={() => {
+            if (item.title === "Sinchana 2022") navigate("/sinchana")
+          }}
+        >
           {item.extra}
-        </p> */}
+        </p>
         <div className="event-timing">
           <p>{item.time}</p>
           <p>{item.venue}</p>

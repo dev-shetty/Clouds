@@ -6,6 +6,7 @@ import EventPage from "./pages/EventPage"
 import { useState } from "react"
 import Background from "./components/UI Components/Background/Background"
 import Loading from "./components/Loading/Loading"
+import SinchanaPage from "./pages/SinchanaPage"
 import "./App.css"
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventPage />} />
+                <Route path="/sinchana" element={<SinchanaPage />} />
               </Routes>
             </>
           )}
