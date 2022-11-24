@@ -20,7 +20,7 @@ function Media() {
             name="Adithya Nayak K"
             socials="https://www.linkedin.com/in/adithya-nayak-k-7046a422a/"
           />
-          <Profile img="Profile/Sathwick.jpg" name="Sathwick Shetty" />
+          <Profile img="Profile/Sathwick.jpg" name="Sathwik Shetty" />
         </div>
       </div>
     </div>
