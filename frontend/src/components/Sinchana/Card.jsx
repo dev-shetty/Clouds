@@ -5,7 +5,7 @@ function Card({ event }) {
       {/* <p className="description">{event.description}</p> */}
       <div className="event-timing">
         <p>Time: {event.time}</p>
-        <p>Venue: {event.venue}</p>
+        {event.venue && <p>Venue: {event.venue}</p>}
       </div>
     </div>
   )
