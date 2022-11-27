@@ -1,12 +1,17 @@
-// Schema
-// {
-//   id: ,
-//   img: "",
-//   title: "",
-//   description: ""
-//   time: "",
-//   venue: "",
-// },
+/* Schema
+* {
+*  id: <next-following-id>,
+*  img: <event-image>,
+*  title: <event-title>,
+*  description: <event-description>
+*  time: <event-timing>,
+*  venue: <event-venue>,
+*
+?  If links and extra details is required (optional)
+?  link: <link-of-any-form-or-anything>
+?  linkDescription: <what-to-display-in-ui-for-that-link>
+?  extra: <to-connect-to-any-other-route> 
+* }, */
 const events = [
   {
     id: 3,
