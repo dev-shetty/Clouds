@@ -15,7 +15,7 @@
 const events = [
   {
     id: 3,
-    img: "SahyadriLogo.png",
+    img: "Events/SahyadriLogo.png",
     title: "Sinchana 2022",
     description:
       "Sinchana is an inter-branch event that will consist of various competitions in which each department will compete against other branches. Each competition will consist of certain points, which will be calculated and the winner declared at the end.",
@@ -27,7 +27,7 @@ const events = [
   },
   {
     id: 2,
-    img: "Variety.JPG",
+    img: "Events/Variety.JPG",
     title: "Variety Show",
     description:
       "The variety show features musical performances, dance, skits, and comedy sketches. Different sections compete against each other for the prestigious trophy. The students actively participate in this event, bringing out their inner artist.",
@@ -36,7 +36,7 @@ const events = [
   },
   {
     id: 1,
-    img: "CloudsInvitation.png",
+    img: "Events/CloudsInvitation.png",
     title: "Branch Entry 2K22",
     description:
       "Branch entry is a fun-filled event where second-year students are welcomed to the Department of Computer Science and Engineering. In doing this, we create an atmosphere where students feel like they are part of a family, which they will be with for the next three years in our college.",

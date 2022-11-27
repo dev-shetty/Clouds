@@ -5,7 +5,7 @@ function OtherEvents() {
       <div className="event-list">
         <div className="other-events">
           <div className="arpan">
-            <img src="Arpan.png" alt="Arpan" className="APRAN" />
+            <img src="Events/Arpan.png" alt="Arpan" className="APRAN" />
           </div>
           <div className="other-event-content">
             <h2>Arpan</h2>
@@ -21,7 +21,7 @@ function OtherEvents() {
         <div className="other-events">
           <div>
             <img
-              src="CSPL Logo.png"
+              src="Events/CSPL Logo.png"
               alt="Computer Science Premier League"
               className="CSPL"
             />
