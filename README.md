@@ -76,52 +76,54 @@ Here, create a new object inside the **events** array, following the next id num
 
 1. Create a fork of this repository in your profile by clicking the fork icon in top-right corner.
 
-2. Go the the forked repository in your profile then clone the repository to your pc by opening terminal in your desired folder and type
+2. Go the the forked repository in your profile and click the green color **Code** icon in right side and copy the url. 
+
+3. Now Clone the repository to your pc by opening terminal in your desired folder and type
 
 ```bash
     git clone <url-copied>
 ```
 
-3. Now a folder with the repository name will appear. Open it in your preffered code editor.
+4. Now a folder with the repository name will appear. Open it in your preffered code editor.
 
-4. Run the following command to install all the dependencies
+5. Run the following command to install all the dependencies
 
 ```bash
   cd .\frontend\
   npm i
 ```
 
-5. Then create a new branch by using the following command (the command creates and switches to the new branch simultaneously)
+6. Then create a new branch by using the following command (the command creates and switches to the new branch simultaneously)
 
 ```bash
     git checkout -b <new-branch-name>
 ```
 
-6.  Now make the desired changes and after making changes or modification on to your code locally, you need to add these files to the staging area.
+7.  Now make the desired changes and after making changes or modification on to your code locally, you need to add these files to the staging area.
 
 ```bash
   git add <file-name>
 ```
 
-7.  Once files added, you need to commit the changes to with an appropriate commit message.
+8.  Once files added, you need to commit the changes to with an appropriate commit message.
 
 ```bash
   git commit -m "<your-message>"
 ```
 
-8.  After commiting the changes, you need to push the changes
+9.  After commiting the changes, you need to push the changes
 
 ```bash
    git push origin <branch-name>
 ```
 
-9.  Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
+10.  Once you push the changes to your repository, the Compare & pull request button will appear in GitHub.
 
-10. Click it and you'll be taken to a screen
+11. Click it and you'll be taken to a screen
 
-11. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
+12. Type a proper description and give the PR an appropriate title. Finally, Open a pull request by clicking the Create pull request button.
 
-12. That's it. You have opened a PR. Wait for it to get merged.
+13. That's it. You have opened a PR. Wait for it to get merged.
 
 <br>
 
