@@ -15,14 +15,14 @@
 const events = [
   {
     id: 3,
-    img: "Events/SahyadriLogo.png",
+    img: "Events/Sinchana.jpeg",
     title: "Sinchana 2022",
     description:
       "Sinchana is an inter-branch event that will consist of various competitions in which each department will compete against other branches. Each competition will consist of certain points, which will be calculated and the winner declared at the end.",
     link: "https://forms.gle/td98pw91Pj99d8zz8",
     linkDescription: "Register Here",
     extra: "Details about events in Sinchana",
-    time: "03-12-2022",
+    time: "02-12-2022 and 03-12-2022",
     venue: "Sahyadri College of Engineering and Management",
   },
   {
