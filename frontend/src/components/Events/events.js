@@ -14,6 +14,15 @@
 * }, */
 const events = [
   {
+    id: 4,
+    img: "Events/SinchanaWinners.JPG",
+    title: "Sinchana 2022 Champions - CSE",
+    description:
+      "Computer Science Engineering Department becomes overall Champions of Sinchana 2022.",
+    time: "03-12-2022",
+    venue: "Sahyadri College of Engineering and Management",
+  },
+  {
     id: 3,
     img: "Events/Sinchana.jpeg",
     title: "Sinchana 2022",
