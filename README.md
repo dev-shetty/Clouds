@@ -15,7 +15,7 @@ CLOUDS is an association of Computer Science Department in Sahyadri College of E
 
 ### Instagram - [Clouds Instagram](https://instagram.com/clouds_scem?igshid=ZmRlMzRkMDU=)
 
-### Linkedin - [Clouds Linkedin](https://www.linkedin.com/in/department-of-cse-scem-b7190b256)
+### Linkedin - [Clouds](https://www.linkedin.com/in/department-of-cse-scem-b7190b256)
 
 <br>
 
