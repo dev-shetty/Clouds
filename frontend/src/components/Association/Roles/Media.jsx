@@ -7,20 +7,25 @@ function Media() {
         <p className="sub-title">Graphics / Media</p>
         <div className="section divide-4">
           <Profile
-            img="Profile/Athul.jpg"
-            name="Athul Ariga"
-            socials="https://www.linkedin.com/in/athul-ariga-b4277a191/"
+            img="Profile/sathwikshetty.jpg"
+            name="Sathwik Shetty N"
+            socials="http://www.linkedin.com/in/sathwikshettyn"
           />
           <Profile
-            img="Profile/NikshithaShetty.jpg"
-            name="Nikshitha S Shetty"
+            img="Profile/Divesh.jpg"
+            name="Divesh"
+            socials=""
           />
           <Profile
-            img="Profile/Adithya.JPG"
-            name="Adithya Nayak K"
-            socials="https://www.linkedin.com/in/adithya-nayak-k-7046a422a/"
+            img="Profile/"
+            name="Adithya"
+            socials=""
           />
-          <Profile img="Profile/Sathwick.jpg" name="Sathwik Shetty" />
+          <Profile 
+            img="Profile/" 
+            name="Adithya" 
+            socials=""
+          />
         </div>
       </div>
     </div>
