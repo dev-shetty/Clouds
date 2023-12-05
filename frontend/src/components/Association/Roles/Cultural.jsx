@@ -5,16 +5,30 @@ function Cultural() {
     <div>
       <div>
         <p className="sub-title">Cultural Secretary</p>
-        <div className="section divide-4">
-          <Profile img="Profile/PriyankaRKunte.jpg" name="Priyanka R Kunte" />
-          <Profile img="Profile/Sinchana.jpg" name="K R Sinchana" />
-          <Profile img="Profile/Shrest.jpeg" name="Shrest" />
-          <Profile img="Profile/DeekshaPK.jpeg" name="Deeksha P K" />
+        <div className="section divide-2">
+          <Profile 
+            img="Profile/NurainKk.jpeg" 
+            name="Nurain K K" 
+            socials="https://www.linkedin.com/in/nurain-kk-4631bb207"
+          />
+          <Profile 
+            img="Profile/ShashwathShetty.jpg" 
+            name="Shashwath" 
+            socials="https://www.linkedin.com/in/shashwath-shetty-004187235"
+          />
         </div>
         <p className="sub-title">Joint Cultural Secretary</p>
         <div className="section divide-2">
-          <Profile img="Profile/AnushreeRai.jpg" name="Anushree Rai N" />
-          <Profile img="Profile/Punya.jpg" name="Punya" />
+          <Profile 
+            img="Profile/AnushreeRai.jpg" 
+            name="Anushree Rai N" 
+            socials="https://www.linkedin.com/in/anushree-rai-n-1420812a3"
+          />
+          <Profile 
+            img="Profile/Punya.jpg" 
+            name="Punya" 
+            socials="https://www.linkedin.com/in/punya-poojary-kadambar-19068b226"
+          />
         </div>
       </div>
     </div>
