@@ -5,42 +5,44 @@ function Core() {
     <div>
       <div className="section divide-3">
         <Profile
-          img="Profile/NageshHR.jpg"
+          img="Profile/DrMustafaBasthikodi.jpg"
           role="President"
-          name="Dr. Nagesh H R"
+          name="Dr. Mustafa Basthikodi"
+          socials="https://www.linkedin.com/in/dr-mustafa-basthikodi-3b644442"
           extras="HOD of Computer Science"
         />
         <Profile
-          img="Profile/ShaileshShetty.JPG"
+          img="Profile/"
           role="Staff Co-ordinator"
-          name="Shailesh Shetty S"
-          socials="https://www.linkedin.com/in/shailesh-s-shetty-2b076b42/"
+          name="Srinivas P M"
+          socials="https://www.linkedin.com/in/prof-srinivas-p-m-8183b6223"
         />
         <Profile
-          img="Profile/NishanthK.jpg"
+          img="Profile/SuhanKm.jpg"
           role="Vice President"
-          name="Nishanth K"
-          socials="https://www.linkedin.com/in/nishanth-k-309552191/"
+          name="Suhan K M"
+          socials="https://www.linkedin.com/in/suhan-km-48253622b"
         />
       </div>
       <br />
-      <div className="section divide-4">
-        <Profile img="Profile/Anurag.jpeg" role="Treasurer" name="Anurag N" />
+      <div className="section divide-3">
+        <Profile 
+          img="Profile/SudeepNNaik.jpg" 
+          role="Treasurer" 
+          name="Sudeep N Naik"
+          socials="http://linkedin.com/in/sudeep-naik-9819b821a"
+          />
         <Profile
-          img="Profile/Bhupender.jpg"
+          img="Profile/"
           role="Joint Treasurer"
-          name="Bhupender"
-          socials="https://www.linkedin.com/in/bhupenderbeniwal/"
+          name="Akarsh"
+          socials=""
         />
         <Profile
-          img="Profile/Hariprasad.jpg"
-          name="Hariprasad Marla"
-          role="Joint Treasurer"
-        />
-        <Profile
-          img="Profile/Manoj.jpg"
+          img="Profile/ShubhamOhdar.jpeg"
           role="Secretary"
-          name="Manoj Mahesh Naik"
+          name="Shubham"
+          socials="https://www.linkedin.com/in/shubham-ohdar-72934a1b7"
         />
       </div>
     </div>
