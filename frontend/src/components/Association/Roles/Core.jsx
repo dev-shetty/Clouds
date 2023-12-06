@@ -26,6 +26,12 @@ function Core() {
       </div>
       <br />
       <div className="section divide-3">
+        <Profile
+          img="Profile/ShubhamOhdar.jpeg"
+          role="Secretary"
+          name="Shubham"
+          socials="https://www.linkedin.com/in/shubham-ohdar-72934a1b7"
+        />
         <Profile 
           img="Profile/SudeepNNaik.jpg" 
           role="Treasurer" 
@@ -33,16 +39,10 @@ function Core() {
           socials="http://linkedin.com/in/sudeep-naik-9819b821a"
           />
         <Profile
-          img="Profile/"
-          role="Joint Treasurer"
+          img="Profile/Akarsh.jpeg"
+          role="Treasurer"
           name="Akarsh"
           socials=""
-        />
-        <Profile
-          img="Profile/ShubhamOhdar.jpeg"
-          role="Secretary"
-          name="Shubham"
-          socials="https://www.linkedin.com/in/shubham-ohdar-72934a1b7"
         />
       </div>
     </div>

@@ -5,7 +5,7 @@ function Media() {
     <div>
       <div>
         <p className="sub-title">Graphics / Media</p>
-        <div className="section divide-4">
+        <div className="section divide-3">
           <Profile
             img="Profile/sathwikshetty.jpg"
             name="Sathwik Shetty N"
@@ -17,14 +17,9 @@ function Media() {
             socials=""
           />
           <Profile
-            img="Profile/"
-            name="Adithya"
-            socials=""
-          />
-          <Profile 
-            img="Profile/" 
-            name="Adithya" 
-            socials=""
+            img="Profile/SudeepGNaik.jpg"
+            name="Sudeep G Naik"
+            socials="https://www.linkedin.com/in/sudeep-naik-328495145"
           />
         </div>
       </div>

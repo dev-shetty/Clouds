@@ -7,7 +7,7 @@ function Journal() {
         <p className="sub-title">Journal Secretary</p>
         <div className="section divide-1">
           <Profile 
-            img="Profile/" 
+            img="Profile/ShreyaSudhakaran.jpeg" 
             name="Shreya Sudhakaran" 
             socials=""
           />

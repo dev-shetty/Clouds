@@ -17,7 +17,7 @@ function Developer() {
             socials="https://www.linkedin.com/in/tejas-gk"
           />
           <Profile
-            img="Profile/Rohan.JPG"
+            img="Profile/Rohan.jpeg"
             name="Rohan"
             socials="https://www.linkedin.com/in/rohan-44aa02228"
           />

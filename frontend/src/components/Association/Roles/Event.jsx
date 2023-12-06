@@ -35,9 +35,9 @@ function Event() {
             socials="https://www.linkedin.com/in/moksha-k"
           />
           <Profile
-            img="Profile/Hamshini.jpg"
-            name="Hamshini"
-            socials=""
+            img="Profile/HamshiniShetty.jpg"
+            name="Hamshini S Shetty"
+            socials="https://www.linkedin.com/in/hamshini-shetty"
           />
         </div>
       </div>

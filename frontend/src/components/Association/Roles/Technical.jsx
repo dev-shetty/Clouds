@@ -30,9 +30,9 @@ function Technical() {
             socials=""
           />
           <Profile 
-            img="Profile/" 
-            name="Ananya" 
-            socials=""
+            img="Profile/AnanyaPk.jpg/" 
+            name="Ananya P K" 
+            socials="https://www.linkedin.com/in/ananya-pk-52409522b"
           />
         </div>
       </div>
