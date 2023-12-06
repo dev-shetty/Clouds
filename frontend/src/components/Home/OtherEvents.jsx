@@ -21,7 +21,7 @@ function OtherEvents() {
         <div className="other-events">
           <div>
             <img
-              src="Events/CSPL Logo.png"
+              src="Events/CSPL23logo.png"
               alt="Computer Science Premier League"
               className="CSPL"
             />

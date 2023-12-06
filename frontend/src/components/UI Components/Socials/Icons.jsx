@@ -37,7 +37,7 @@ function Icons({ size }) {
       </li> */}
       <li>
         <a
-          href="https://www.linkedin.com/in/department-of-cse-scem-b7190b256"
+          href="https://www.linkedin.com/company/department-of-computer-science-engineering"
           target="_blank"
         >
           <FaLinkedin size={size} className={styles["icon"]} />

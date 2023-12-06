@@ -14,6 +14,15 @@
 * }, */
 const events = [
   {
+    id: 5,
+    img: "Events/BranchEntry23.jpg",
+    title: "Branch Entry 2K23",
+    description:
+      "Branch entry is a fun-filled event where second-year students are welcomed to the Department of Computer Science and Engineering. In doing this, we create an atmosphere where students feel like they are part of a family, which they will be with for the next three years in our college.",
+    time: "13-12-2023",
+    venue: "Sahyadri College of Engineering and Management",
+  },
+  {
     id: 4,
     img: "Events/SinchanaWinners.JPG",
     title: "Sinchana 2022 Champions - CSE",
