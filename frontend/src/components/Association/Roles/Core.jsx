@@ -12,7 +12,7 @@ function Core() {
           extras="HOD of Computer Science"
         />
         <Profile
-          img="Profile/"
+          img="Profile/SrinivasPM.jpeg"
           role="Staff Co-ordinator"
           name="Srinivas P M"
           socials="https://www.linkedin.com/in/prof-srinivas-p-m-8183b6223"
