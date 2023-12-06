@@ -18,7 +18,7 @@ const events = [
     img: "Events/BranchEntry23.jpg",
     title: "Branch Entry 2K23",
     description:
-      "Branch entry is an enjoyable occasion where we extend a warm welcome to second-year students joining the Department of Computer Science and Engineering. Through this initiative, we strive to cultivate an environment that fosters a sense of belonging, making students feel like integral members of a close-knit family that will accompany them throughout their three-year journey in our college.",
+      "Branch entry is an enjoyable occasion where we extend a warm welcome to second-year students joining the Department of Computer Science and Engineering. We strive to cultivate an environment that fosters a sense of belonging, making students feel like integral members of a close-knit family that will accompany them throughout their three-year journey in our college.",
     time: "13-12-2023",
     venue: "Sahyadri College of Engineering and Management",
   },
