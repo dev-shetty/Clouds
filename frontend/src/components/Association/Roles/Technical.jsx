@@ -25,9 +25,9 @@ function Technical() {
         <p className="sub-title">Joint Technical Secretary</p>
         <div className="section divide-2">
           <Profile 
-            img="Profile/" 
-            name="Abhijnya" 
-            socials=""
+            img="Profile/ABHIJNA.jpg" 
+            name="Abhijna" 
+            socials="https://www.linkedin.com/in/abhijna-s-38713324a"
           />
           <Profile 
             img="Profile/AnanyaPk.jpg/" 

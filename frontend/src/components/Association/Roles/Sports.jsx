@@ -14,7 +14,7 @@ function Sports() {
           <Profile
             img="Profile/MahammadZahir.jpeg"
             name="Mahammad Zahir"
-            role="Joint Sports Secretary"
+            // role="Joint Sports Secretary"
             socials="https://www.linkedin.com/in/mahammad-zahir-99b988206"
           />
         </div>
