@@ -5,20 +5,35 @@ function Technical() {
     <div>
       <div>
         <p className="sub-title">Technical Secretary</p>
-        <div className="section divide-2">
+        <div className="section divide-3">
           <Profile
-            img="Profile/Ashay.jpeg"
-            name="Ashay H Sooda"
-            socials="https://www.linkedin.com/in/ashay-sooda-7316031b5/"
+            img="Profile/SANNIDHIBHAT .jpeg"
+            name="Sannidhi Bhat"
+            socials="https://www.linkedin.com/in/sannidhi-bhat-4b7852202"
           />
-          <Profile img="Profile/Prakyath.jpeg" name="Prakyath H N" />
+          <Profile 
+            img="Profile/AnishMendon.jpg" 
+            name="Anish D Mendon"
+            socials="https://www.linkedin.com/in/anish-mendon-913546202" 
+          />
+          <Profile
+            img="Profile/Amulya.jpg"
+            name="Amulya Nayak"
+            socials=""
+          />
         </div>
         <p className="sub-title">Joint Technical Secretary</p>
-        <div className="section divide-4">
-          <Profile img="Profile/PratheekshaS.png" name="Pratheeksha S" />
-          <Profile img="Profile/AshwinPB.jpg" name="Ashwin P B" />
-          <Profile img="Profile/Hamshini.jpg  " name="Hamshini Shetty" />
-          <Profile img="Profile/Moksha.jpg" name="Moksha K" />
+        <div className="section divide-2">
+          <Profile 
+            img="Profile/ABHIJNA.jpg" 
+            name="Abhijna" 
+            socials="https://www.linkedin.com/in/abhijna-s-38713324a"
+          />
+          <Profile 
+            img="Profile/AnanyaPk.jpg/" 
+            name="Ananya P K" 
+            socials="https://www.linkedin.com/in/ananya-pk-52409522b"
+          />
         </div>
       </div>
     </div>

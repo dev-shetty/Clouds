@@ -6,15 +6,17 @@ function Journal() {
       <div>
         <p className="sub-title">Journal Secretary</p>
         <div className="section divide-2">
-          <Profile img="Profile/Sucheta.jpg" name="Sucheta S Shanbhag" />
-          <Profile img="Profile/VinolDSouza.jpg" name="Vinol Chris D Souza" />
-        </div>
-      </div>
-      <div>
-        <p className="sub-title">Joint Journal Secretary</p>
-        <div className="section divide-2">
-          <Profile img="Profile/Amritha.jpg" name="Amritha" />
-          <Profile img="Profile/LakshmiAkshayaT.jpg" name="Lakshmi Akshaya T" />
+          <Profile 
+            img="Profile/ShreyaSudhakaran.jpeg" 
+            name="Shreya Sudhakaran" 
+            socials=""
+          />
+          <Profile 
+            img="Profile/SoujanyaRao.jpg" 
+            name="Soujanya Rao" 
+            role="Joint Journal Secretary"
+            socials="https://www.linkedin.com/in/soujanya-rao-3b5150229"
+          />
         </div>
       </div>
     </div>

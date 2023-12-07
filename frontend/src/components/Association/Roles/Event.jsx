@@ -5,38 +5,40 @@ function Event() {
     <div>
       <div>
         <p className="sub-title">Event Co-ordinators</p>
-        <div className="section divide-4">
+        <div className="section divide-3">
           <Profile
-            img="Profile/AbhishekPaiP.jpg"
-            name="Abhishek Pai P"
-            socials="https://www.linkedin.com/in/abhishek-pai-b808381b3"
+            img="Profile/BlensonDSouza.jpeg"
+            name="Blenson DSouza"
+            socials="https://www.linkedin.com/in/blenson-d-souza-7879551ba"
           />
-          <Profile img="Profile/Ashwin.jpg" name="Ashwin K P" />
-          <Profile
-            img="Profile/Sohan.JPG"
-            name="Sohan Bangera"
-            socials="https://www.linkedin.com/in/sohan-bangera-b324461b1/"
+          <Profile 
+            img="Profile/DevikaShetty.jpg" 
+            name="Devika Shetty" 
+            socials="https://www.linkedin.com/in/devika-shetty-a31b50212"
           />
           <Profile
-            img="Profile/Dharithri.png"
-            name="Dharithri Rai B"
-            socials="https://www.linkedin.com/in/dharithri-rai-b-577790191/"
+            img="Profile/GoswamyDatta.jpg"
+            name="K Goswamy Datta"
+            socials="https://www.linkedin.com/in/k-goswamy-datta-063992225"
           />
         </div>
         <p className="sub-title">Joint Event Co-ordinators</p>
-        <div className="section divide-4">
-          <Profile img="Profile/Shreya.jpg" name="Shreya K" />
+        <div className="section divide-3">
           <Profile
-            img="Profile/Sudeepnn.jpg"
-            name="Sudeep N Naik"
-            socials="https://www.linkedin.com/in/sudeep-naik-9819b821a/"
+            img="Profile/PratheekshaS.jpg"
+            name="Pratheeksha S"
+            socials="https://www.linkedin.com/in/pratheeksha-s-bangera-8a4a1a22a"
+          />
+          <Profile 
+            img="Profile/MokshaK.jpeg" 
+            name="Moksha" 
+            socials="https://www.linkedin.com/in/moksha-k"
           />
           <Profile
-            img="Profile/Divesh.jpg"
-            name="Divesh S"
-            socials="https://www.instagram.com/subodhik"
+            img="Profile/HamshiniShetty.jpg"
+            name="Hamshini S Shetty"
+            socials="https://www.linkedin.com/in/hamshini-shetty"
           />
-          <Profile img="Profile/Amulya.jpg" name="Amulya" />
         </div>
       </div>
     </div>

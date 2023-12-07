@@ -6,16 +6,11 @@ function Others() {
     <div>
       <div>
         <p className="sub-title">Placement and Marketing</p>
-        <div className="section divide-2">
+        <div className="section divide-1">
           <Profile
-            img="Profile/Sanjana.jpg"
-            name="Sanjana S Nayak"
-            role="Placement Co-ordinator"
-          />
-          <Profile
-            img="Profile/Roshni.jpg"
-            name="Roshni"
-            role="Documentation / Marketing"
+            img="Profile/NikshithaShetty.jpg"
+            name="Nikshitha S Shetty"
+            socials="https://www.linkedin.com/in/nikshitha-shetty-4185a6235"
           />
         </div>
       </div>
